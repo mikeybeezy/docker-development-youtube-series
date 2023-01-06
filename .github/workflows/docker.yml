@@ -6,9 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: docker build csharp
-      run: |
-        docker build ./c# -t mikeybabs/csharp:1.0.0
     - name: docker build nodejs
       run: |
         docker build ./nodejs -t mikeybabs/nodejs:1.0.0
